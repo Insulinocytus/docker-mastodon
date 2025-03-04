@@ -3,4 +3,4 @@
 
 cd /app/www || exit 1
 
-bundle exec rails secret
+rake db:encryption:init
